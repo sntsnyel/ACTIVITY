@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <script language="javascript" type="text/javascript">
+    <!--
+      function answer() {
+        while (true) {
+          var guess = prompt("What do you see? ");
+          if (guess == "loading jeepney") {
+            alert("Correct");
+            return false;
+          }
+          else {
+            alert("Wrong answer");
+            return true;
+          }
+        }
+      }
+      -->
+    </script>
+    <img src="a4.png" alt="a4">
+    <button type="button" onclick="answer()">Click!</button>
+  </body>
+</html>

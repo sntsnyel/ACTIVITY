@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Activity 6</title>
+	<script language="javascript" type="text/javascript">
+	<!--
+		function sayHello(){
+			alert("Hello World")
+		}
+		function compute(){
+			var num1 = 6
+			var num2 = 7
+			sum = num1 + num2
+			alert(sum)
+		}
+	//-->
+	</script>
+</head>
+<body>
+Click me
+<input type="button" onclick="sayHello()" value="Say Hello"/>
+<input type="button" onclick="compute()"value="Compute"/>
+</body>
+</html>
